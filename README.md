@@ -1,1 +1,7 @@
 # pandas-challenge
+Observable trends based on the data:
+School Type and Performance: One trend that can be observed is that Charter schools tend to have higher overall passing rates compared to District schools. This is evident from the top_schools and bottom_schools DataFrames, where the top-performing schools are Charter schools, while the bottom-performing schools are District schools. This trend is also visible in the 'Scores by School Type' DataFrame, where Charter schools have higher passing rates.
+
+School Size and Performance: Another trend that can be observed is that smaller schools (with less than 2000 students) tend to have better academic performance compared to larger schools (with more than 2000 students). This is evident from the 'Scores by School Size' DataFrame, where the average math and reading scores and passing rates are higher for smaller schools.
+
+Spending Per Student and Performance: There seems to be an inverse relationship between spending per student and academic performance. Schools with lower spending per student have higher average scores and passing rates, as seen in the 'Scores by School Spending' DataFrame. This suggests that increased spending per student does not necessarily lead to better academic outcomes.
